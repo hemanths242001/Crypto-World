@@ -19,7 +19,7 @@ function App() {
     currencyListCTX.getCurrencyList();
     currencyListCTX.getExchanges();
     selectedCurrencyCTX.getHistory("bitcoin");
-  });
+  },[]);
 
   return (
     <div className="App">
