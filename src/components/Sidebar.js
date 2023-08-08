@@ -7,7 +7,7 @@ const Sidebar = () => {
         <div className="logo">
             <h2>CRYPTO WORLD</h2>
         </div>
-        <Link to="/"><i className="fa-solid fa-server"></i>
+        <Link to="/Crypto-World"><i className="fa-solid fa-server"></i>
             Dashboard
         </Link>
         <Link to="/exchanges"><i className="fa-solid fa-chart-line"></i>
