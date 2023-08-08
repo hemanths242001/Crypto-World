@@ -25,7 +25,7 @@ function App() {
     <div className="App">
       <Sidebar/>
       <Routes>
-        <Route path="/" element={<Dashboard/>}/>
+        <Route path="/Crypto-World" element={<Dashboard/>}/>
         <Route path="/exchanges" element={<Exchanges/>}/>
       </Routes>
     </div>
